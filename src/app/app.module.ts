@@ -9,13 +9,19 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { DataService } from './data.service';
+import { WhatwedoComponent } from './whatwedo/whatwedo.component';
+import { HowweworkComponent } from './howwework/howwework.component';
+import { GetinvolvedComponent } from './getinvolved/getinvolved.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavigationComponent,
-    FooterComponent
+    FooterComponent,
+    WhatwedoComponent,
+    HowweworkComponent,
+    GetinvolvedComponent
   ],
   imports: [
     BrowserModule,
